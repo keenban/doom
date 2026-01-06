@@ -52,14 +52,6 @@
   (setq langtool-http-server-host "localhost")
   (setq langtool-http-server-port 8082))
 
-(use-package! flycheck-languagetool
-  :hook
-  (text-mode . (lambda () (require 'flycheck-languagetool)))
-
-  :init
-  (setq flycheck-languagetool-server-jar "~/.local/share/languagetool/languagetool-server.jar")
-  (setq flycheck-languagetool-server-port "8082")
-  (setq flycheck-languagetool-language "en-CA"))
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;
