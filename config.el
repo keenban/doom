@@ -42,7 +42,8 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
-(setq +latex-viewers '(pdf-tools))
+(map! :map cdlatex-mode-map
+      :i "TAB" #'cdlatex-tab)
 
 (use-package! langtool
   :init
