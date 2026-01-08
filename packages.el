@@ -56,3 +56,5 @@
 (package! denote)
 (package! denote-journal)
 (package! bbdb)
+(package! whisper
+  :recipe (:host github :repo "natrys/whisper.el"))
