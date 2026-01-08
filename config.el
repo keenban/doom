@@ -38,9 +38,35 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
-;; If you use `org' and don't want your org files in the default location below,
-;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/org/")
+(setq org-directory "~/org/"
+      org-log-done t)
+
+(add-hook 'org-mode-hook 'variable-pitch-mode)
+
+(use-package! denote
+  :init
+  (setq denote-directory (expand-file-name "~/media/doc/notes/")
+        denote-rename-confirmations nil)
+  :config
+  (denote-rename-buffer-mode t)
+  :bind
+  (("C-c d n" . denote)
+   ("C-c d r" . denote-rename-file)
+   ("C-c d l" . denote-link)
+   ("C-c d b" . denote-backlinks)
+   ("C-c d d" . denote-dired)
+   ("C-c d g" . denote-grep)
+   ("C-c d c" . denote-link-after-creating)))
+
+(use-package! denote-journal
+  :init
+  (setq denote-journal-directory (expand-file-name "journal" denote-directory)
+        denote-journal-keyword "journal"
+        denote-journal-title-format 'day-date-month-year)
+  :bind
+  ("C-c d j" . denote-journal-new-or-existing-entry)
+  :hook
+  (calendar-mode . denote-journal-calendar-mode))
 
 (map! :map cdlatex-mode-map
       :i "TAB" #'cdlatex-tab)
