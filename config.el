@@ -51,6 +51,7 @@
   (denote-rename-buffer-mode t)
   :bind
   (("C-c d n" . denote)
+   ("C-c d N" . denote-type)
    ("C-c d r" . denote-rename-file)
    ("C-c d l" . denote-link)
    ("C-c d b" . denote-backlinks)
