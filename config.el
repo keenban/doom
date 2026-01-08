@@ -37,8 +37,7 @@
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
-(display-line-numbers-mode nil)
-(add-hook 'prog-mode-hook #'display-line-numbers-mode)
+(remove-hook! '(text-mode-hook conf-mode-hook) #'display-line-numbers-mode)
 
 (setq org-directory "~/org/"
       org-log-done t)
