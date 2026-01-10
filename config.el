@@ -39,7 +39,8 @@
 (setq display-line-numbers-type t)
 (remove-hook! '(text-mode-hook conf-mode-hook) #'display-line-numbers-mode)
 
-(setq org-directory "~/org/"
+(setq org-directory "~/media/doc/notes/"
+      org-attach-directory "~/media/doc/notes/media/"
       org-log-done t)
 
 (use-package! denote
