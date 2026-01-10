@@ -58,3 +58,4 @@
 (package! bbdb)
 (package! whisper
   :recipe (:host github :repo "natrys/whisper.el"))
+(package! mixed-pitch)

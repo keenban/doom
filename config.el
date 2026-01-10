@@ -42,8 +42,6 @@
 (setq org-directory "~/org/"
       org-log-done t)
 
-(add-hook 'org-mode-hook 'variable-pitch-mode)
-
 (use-package! denote
   :init
   (setq denote-directory (expand-file-name "~/media/doc/notes/")
@@ -91,6 +89,10 @@
         whisper-language "en"
         whisper-translate nil
         whisper-use-threads (/ (num-processors) 2)))
+
+(use-package! mixed-pitch
+  :hook
+  (text-mode . mixed-pitch-mode))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
