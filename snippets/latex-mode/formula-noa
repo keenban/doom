@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Kinematics No Acceleration
+# key: formula/noa
+# condition: t
+# group: formula
+# --
+\[ \overrightarrow{d} = \frac{\overrightarrow{v}_1 + \overrightarrow{v}_2}{2}t \]

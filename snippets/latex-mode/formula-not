@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Kinematics No Time
+# key: formula/not
+# condition: t
+# group: formula
+# --
+\[ \overrightarrow{v}_2 = \overrightarrow{v}_1 + 2ad \]
