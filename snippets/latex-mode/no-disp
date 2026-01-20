@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Kinematics No Displacement
+# key: no/d
+# condition: t
+# group: formula
+# --
+\[ \vec{a} = \frac{\vec{v}_2 - \vec{v}_1{t} \]

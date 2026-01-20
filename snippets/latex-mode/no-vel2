@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Kinematics No Final Velocity
+# key: no/v2
+# condition: t
+# group: formula
+# --
+\[ \vec{d} = \vec{v}_1t + \frac{1}{2}\vec{a}(t)^2 \]

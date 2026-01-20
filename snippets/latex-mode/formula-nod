@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: Kinematics No Displacement
-# key: formula/nod
-# condition: t
-# group: formula
-# --
-\[ \overrightarrow{a} = \frac{\overrightarrow{v}_2 - \overrightarrow{v}_1{t} \]

@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: Kinematics No Final Velocity
-# key: formula/nov2
-# condition: t
-# group: formula
-# --
-\[ \overrightarrow{d} = \overrightarrow{v}_1t + \frac{1}{2}\overrightarrow{a}(t)^2 \]

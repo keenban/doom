@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Initial Velocity
+# key: vel1
+# condition: t
+# --
+\[\vec{v}_1 = \qty{$1}{\m\per\s} [\text{$2}] \]
+$0

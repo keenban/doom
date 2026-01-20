@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Time
+# key: time
+# condition: t
+# --
+\[t = \qty{$1}{\s} \]
+$0

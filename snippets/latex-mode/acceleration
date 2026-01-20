@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Acceleration
+# key: accel
+# condition: t
+# --
+\[\vec{a} = \qty{$1}{\m\per\s\squared} [\text{$2}] \]
+$0

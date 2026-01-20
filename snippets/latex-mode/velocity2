@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Final Velocity
+# key: vel2
+# condition: t
+# --
+\[\vec{v}_2 = \qty{$1}{\m\per\s} [\text{$2}] \]
+$0

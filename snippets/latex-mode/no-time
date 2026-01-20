@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: Kinematics No Time
-# key: formula/not
+# key: no/t
 # condition: t
 # group: formula
 # --
-\[ \overrightarrow{v}_2 = \overrightarrow{v}_1 + 2ad \]
+\[ \vec{v}_2^2 = \vec{v}_1^2 + 2ad \]

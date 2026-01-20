@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: siunitx qty
+# key: qty
+# condition: t
+# --
+\qty{$1}{$2}$0

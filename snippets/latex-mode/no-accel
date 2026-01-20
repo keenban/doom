@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Kinematics No Acceleration
+# key: no/a
+# condition: t
+# group: formula
+# --
+\[ \vec{d} = \frac{\vec{v}_1 + \vec{v}_2}{2}t \]

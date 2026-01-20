@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Kinematics No Initial Velocity
+# key: no/v1
+# condition: t
+# group: formula
+# --
+\[ \vec{d} = \vec{v}_2t - \frac{1}{2}\vec{a}(t)^2 \]
